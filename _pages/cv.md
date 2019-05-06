@@ -10,12 +10,13 @@ redirect_from:
 {% include base_path %}
 
 ### Education
-* PhD in Computer Science, University of Chile and École des Mines de Nantes, 2014
+* ***PhD in Computer Science***, University of Chile and École des Mines de Nantes, 2014
 * Bachelor in Computer Science, University of Santiago, 2010
 
 ### Work experience
-* 2015 through 2019: Associate Professor
-  * Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso
+* Currently: ***Senior Researcher*** at [Inria Chile](http://www.inria.cl)
+* Jan/2015 through Jan/2019: ***Associate Professor***
+  * [Escuela de Ingeniería Informática](http://www.inf.ucv.cl), [Pontificia Universidad Católica de Valparaíso](http://www.pucv.cl)
   * Duties included: Research, Teaching, Head of local IT department  
   
 <!-- Fullstack Developer Skills
@@ -27,12 +28,22 @@ redirect_from:
   * Sub-skill 2.3
 * Skill 3 -->
 
-### Publications
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+### WoS Publications
+  <ul>{% for post in site.publications_wos reversed %}
+    <li>    
+    <b>{{ post.title }}</b>
+    {% if post.author %}
+      <br/>{{ post.author }}
+    {% endif %}
+    {% if post.venue %}
+      <br/><i>{{ post.venue }}</i>.       
+    {% endif %}  
+    {% if post.year %}<i>{{ post.year }}</i>{% endif %}
+    </li>
+    <!-- {% include archive-single-cv.html %} -->
   {% endfor %}</ul>
   
-### Talks
+<!-- ### Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
@@ -43,4 +54,4 @@ redirect_from:
   {% endfor %}</ul>
   
 ### Service and leadership
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

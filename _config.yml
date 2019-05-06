@@ -86,7 +86,7 @@ author:
   location         : "Chile"
   employer         :
   #pubmed           :
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.cl/citations?user=XQVtvwUAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -175,8 +175,14 @@ kramdown:
 collections:
   teaching:
     output: true
+    permalink: /:collection/:path/  
+  publications_wos:
+    output: true
     permalink: /:collection/:path/
-  publications:
+  publications_scopus:
+    output: true
+    permalink: /:collection/:path/
+  publications_others:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -216,10 +222,28 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _publications_wos
   - scope:
       path: ""
-      type: publications
+      type: publications_wos
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications_scopus
+  - scope:
+      path: ""
+      type: publications_scopus
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+   # _publications_others
+  - scope:
+      path: ""
+      type: publications_others
     values:
       layout: single
       author_profile: true
