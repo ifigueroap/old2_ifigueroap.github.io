@@ -4,8 +4,10 @@ collection: publications_wos
 permalink: /publication/wos/figueroaAl-scp2016
 year: 2016
 date: 2016-04-01
+author: 'Ismael Figueroa, Nicolas Tabareau, Éric Tanter'
 venue: 'Science of Computer Programming'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0167642315004062'
+quartil: 3
 ---
 
 # Abstract

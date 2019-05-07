@@ -101,7 +101,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "ifigueroap"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -227,28 +227,28 @@ defaults:
       path: ""
       type: publications_wos
     values:
-      layout: single
+      layout: single_nopag
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications_scopus
   - scope:
       path: ""
       type: publications_scopus
     values:
-      layout: single
+      layout: single_nopag
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
    # _publications_others
   - scope:
       path: ""
       type: publications_others
     values:
-      layout: single
+      layout: single_nopag
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""

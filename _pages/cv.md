@@ -17,31 +17,26 @@ redirect_from:
 * Currently: ***Senior Researcher*** at [Inria Chile](http://www.inria.cl)
 * Jan/2015 through Jan/2019: ***Associate Professor***
   * [Escuela de Ingeniería Informática](http://www.inf.ucv.cl), [Pontificia Universidad Católica de Valparaíso](http://www.pucv.cl)
-  * Duties included: Research, Teaching, Head of local IT department  
-  
-<!-- Fullstack Developer Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
+  * Duties included: Research, Teaching, Head of local IT department
 
-### WoS Publications
+### WoS Publications ({{ site.publications_wos | size }})
   <ul>{% for post in site.publications_wos reversed %}
     <li>    
-    <b>{{ post.title }}</b>
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink"><b>{{ post.title }}</b></a>
     {% if post.author %}
       <br/>{{ post.author }}
     {% endif %}
     {% if post.venue %}
-      <br/><i>{{ post.venue }}</i>.       
+      <br/><i>{{ post.venue }}</i>.
     {% endif %}  
-    {% if post.year %}<i>{{ post.year }}</i>{% endif %}
+    {% if post.year %}<i>{{ post.year }}</i>{% endif %}
+    {% if post.quartil %}WoS Quartile {{ post.quartil }}.{% endif %}
     </li>
     <!-- {% include archive-single-cv.html %} -->
   {% endfor %}</ul>
+
+### Scopus Publications ({{ site.publications_scopus | size }})
+See the full list [here](/publications)!
   
 <!-- ### Talks
   <ul>{% for post in site.talks %}

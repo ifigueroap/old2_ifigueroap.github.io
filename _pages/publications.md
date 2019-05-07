@@ -11,20 +11,38 @@ author_profile: true
 
 {% include base_path %}
 
-# Web of Science
+# Web of Science ({{site.publications_wos | size}})
+<ul>{% for post in site.publications_wos reversed %}
+  <li>
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink"><b>{{ post.title }}</b></a>
+    {% if post.author %}
+      <br/>{{ post.author }}
+    {% endif %}
+    {% if post.venue %}
+      <br/><i>{{ post.venue }}</i>.
+    {% endif %}  
+    {% if post.year %}<i>{{ post.year }}</i>.{% endif %}
+    {% if post.quartil %}WoS Quartile {{ post.quartil }}.{% endif %}
+  </li>  
+{% endfor %}</ul>
 
-{% for post in site.publications_wos reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+# Scopus ({{site.publications_scopus | size}})
+<ul>{% for post in site.publications_scopus reversed %}
+  <li>
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink"><b>{{ post.title }}</b></a>
+    {% if post.author %}
+      <br/>{{ post.author }}
+    {% endif %}
+    {% if post.venue %}
+      <br/><i>{{ post.venue }}</i>.
+    {% endif %}  
+    {% if post.year %}<i>{{ post.year }}</i>.{% endif %}
+    {% if post.quartil %}WoS Quartile {{ post.quartil }}.{% endif %}
+  </li>
 
-# Scopus
+{% endfor %}</ul>
 
-{% for post in site.publications_scopus reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-# Others
-
+<!-- # Others
 {% for post in site.publications_others reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->

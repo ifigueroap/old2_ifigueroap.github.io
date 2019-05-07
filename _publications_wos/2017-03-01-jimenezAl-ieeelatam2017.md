@@ -4,8 +4,10 @@ collection: publications_wos
 permalink: /publication/wos/jimenezAl-ieeelatam2017
 year: 2017
 date: 2017-03-01
+author: 'Cristhy Jiménez, Héctor Allende-Cid, Ismael Figueroa'
 venue: 'IEEE Latin America Transactions'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/7867606'
+quartil: 4
 ---
 
 # Abstract

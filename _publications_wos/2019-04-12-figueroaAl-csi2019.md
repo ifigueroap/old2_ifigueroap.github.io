@@ -8,6 +8,7 @@ venue: 'Computer Standards & Interfaces'
 author: 'Ismael Figueroa, Cristhy Jiménez, Héctor Allende-Cid, Paul Leger'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0920548918301788'
 doi: '10.1016/j.csi.2019.03.003'
+quartil: 2
 ---
 
 # Abstract

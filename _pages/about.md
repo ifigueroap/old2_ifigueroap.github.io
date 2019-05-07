@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-  * I was Assistant Professor at [Pontificia Universidad Católica de Valparaiso](http://www.inf.ucv.cl)
+  * Currently working as ***Senior Researcher*** at [Inria Chile](http://www.inria.cl)
+  * I was ***Associate Professor*** at [Pontificia Universidad Católica de Valparaiso](http://www.inf.ucv.cl)
   * Former Lead Researcher of Fondecyt postdoctoral project  
   * I did a short stay as a postdoctoral researcher in the [ASCOLA](http://www.emn.fr/z-info/ascola) team with the researchers [Adrien Lebre](http://www.emn.fr/z-info/ascola/doku.php?id=internet:members:alebre08:overview) and [Nicolas Tabareau](http://tabareau.fr). I worked with them on the [Discovery Initiative](http://beyondtheclouds.github.io/)
   * I got my PhD in 2014 under joint supervision of [Éric Tanter](http://pleiad.cl/people/etanter), [Nicolas Tabareau](http://tabareau.fr) and [Mario Südholt](http://www.emn.fr/sudholt), while being member of both the [PLEIAD Lab](http://pleiad.dcc.uchile.cl/) and the [ASCOLA](http://www.emn.fr/z-info/ascola) team.
@@ -16,8 +17,9 @@ redirect_from:
 
 ## Research Interests
   * Applied Machine Learning
+  * Empirical Software Engineering
+  * Experimental User eXperience
   * Foundations of Programming Languages  
-  * Empirical Software Engineering  
 
 ## Contact Info  
   * by email: ifigueroap[at]gmail.com

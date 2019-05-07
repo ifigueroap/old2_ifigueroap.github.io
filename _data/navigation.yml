@@ -1,20 +1,32 @@
 # main links links
 main:
 
+  - title: "Home"
+    url: /
+    icon: "fa fa-home"
+
+  - title: "CV"
+    url: /cv/
+    icon: "fa fa-scroll"
+  
+  - title: "Publications"
+    url: /publications/
+    icon: "fa fa-book"
+
+  # - title: "Research"
+  #   url: /research/
+
   # - title: "Projects"
   #   url: /projects/  
 
   # #- title: "Talks"
-  # #  url: /talks/
-
-  # - title: "Research"
-  #   url: /research/
+  # #  url: /talks/  
   
   # - title: "Teaching"
   #   url: /teaching/
+  #   icon: "fa fa-graduation-cap"
     
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    url: /cv/  
+  
