@@ -21,8 +21,5 @@ redirect_from:
   * Experimental User eXperience
   * Foundations of Programming Languages
 
-### Publications
-Currently I have {{ site.publications_wos | size }} Web of Science publications, and {{ site.publications_scopus | size }} Scopus publications. Check them out [here](/publications)!
-
 ## Contact Info  
   * by email: ifigueroap[at]gmail.com
