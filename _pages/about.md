@@ -18,8 +18,7 @@ redirect_from:
 ## Research Interests
   * Applied Machine Learning
   * Empirical Software Engineering
-  * Experimental User eXperience
-  * Foundations of Programming Languages
+  * Computing Education  
 
 ## Contact Info  
   * by email: ifigueroap[at]gmail.com
