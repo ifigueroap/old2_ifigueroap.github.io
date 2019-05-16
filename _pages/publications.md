@@ -22,7 +22,7 @@ author_profile: true
       <br/><i>{{ post.venue }}</i>.
     {% endif %}  
     {% if post.year %}<i>{{ post.year }}</i>.{% endif %}
-    {% if post.quartil %}WoS Quartile {{ post.quartil }}.{% endif %}
+    {% if post.quartil %} WoS Quartile {{ post.quartil }}.{% endif %}
   </li>  
 {% endfor %}</ul>
 
