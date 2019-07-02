@@ -17,6 +17,7 @@ redirect_from:
 
 ## Research Interests
   * Applied Machine Learning
+  * Scalable Business Analytics Platforms
   * Empirical Software Engineering
   * Computing Education  
 
