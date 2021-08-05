@@ -13,8 +13,8 @@ redirect_from:
   * I worked briefly as ***Senior Researcher*** at [Inria Chile](http://www.inria.cl)
   * I was ***Associate Professor*** at [Pontificia Universidad Católica de Valparaiso](http://www.inf.ucv.cl)
   * Former Lead Researcher of Fondecyt postdoctoral project  
-  * I did a short stay as a postdoctoral researcher in the [ASCOLA](http://www.emn.fr/z-info/ascola) team with the researchers [Adrien Lebre](http://www.emn.fr/z-info/ascola/doku.php?id=internet:members:alebre08:overview) and [Nicolas Tabareau](http://tabareau.fr). I worked with them on the [Discovery Initiative](http://beyondtheclouds.github.io/)
-  * I got my PhD in 2014 under joint supervision of [Éric Tanter](http://pleiad.cl/people/etanter), [Nicolas Tabareau](http://tabareau.fr) and [Mario Südholt](http://www.emn.fr/sudholt), while being member of both the [PLEIAD Lab](http://pleiad.dcc.uchile.cl/) and the [ASCOLA](http://www.emn.fr/z-info/ascola) team.
+  * I did a short stay as a postdoctoral researcher in the [ASCOLA](http://www.emn.fr/z-info/ascola) team with the researchers [Adrien Lebre](https://stack-research-group.gitlabpages.inria.fr/web/pages/adrien-lebre.html) and [Nicolas Tabareau](http://tabareau.fr). I worked with them on the [Discovery Initiative](http://beyondtheclouds.github.io/)
+  * I got my PhD in 2014 under joint supervision of [Éric Tanter](http://pleiad.cl/people/etanter), [Nicolas Tabareau](http://tabareau.fr) and [Mario Südholt](https://stack-research-group.gitlabpages.inria.fr/web/sudholt/), while being member of both the [PLEIAD Lab](http://pleiad.dcc.uchile.cl/) and the [ASCOLA](https://web.imt-atlantique.fr/x-info/ascola/doku.php) team.
     * Check out my [PhD Thesis](http://repositorio.uchile.cl/handle/2250/116427)!
   * For more details see my [LinkedIn profile](http://cl.linkedin.com/in/ifigueroap)
 
