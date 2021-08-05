@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : 
   foursquare       :
   github           : "ifigueroap"
   google_plus      :
@@ -102,7 +102,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         : "ifigueroap"
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0003-3661-4963"
   pinterest        :
   soundcloud       :
   stackoverflow    : "70019/ismael"
@@ -191,6 +191,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -202,9 +205,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
+      read_time: false
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -277,7 +280,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Santiago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

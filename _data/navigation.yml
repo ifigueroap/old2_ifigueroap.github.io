@@ -7,11 +7,15 @@ main:
 
   - title: "CV"
     url: /cv/
-    icon: "fa fa-scroll"
+    icon: "fa fa-user"
   
   - title: "Publications"
     url: /publications/
-    icon: "fa fa-book"
+    icon: "fa fa-scroll"
+
+  - title: "Blog"
+    url: /year-archive/
+    icon: "fa fa-code"
 
   # - title: "Research"
   #   url: /research/
@@ -20,7 +24,7 @@ main:
   #   url: /projects/  
 
   #- title: "Talks"
-  #  url: /talks/  
+  #  url: /talks/
   
   # - title: "Teaching"
   #   url: /teaching/
